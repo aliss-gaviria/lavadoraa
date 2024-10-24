@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\alizz\OneDrive\Documentos\VHDL\lavadora\lavadora\simulation\qsim
+vlavadora
+Z1 IFiGM;_h]_4l1fb><@bzCJ2
+Z2 VC<amGRnGWPIeZZP8GP8J>0
+Z3 dC:\Users\alizz\OneDrive\Documentos\VHDL\lavadora\lavadora\simulation\qsim
+Z4 w1729806682
+Z5 8lavadora.vo
+Z6 Flavadora.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|lavadora.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 mk>QcgPNC?GRIk[]KfN730
+!s85 0
+Z11 !s108 1729806683.822000
+Z12 !s107 lavadora.vo|
+!s101 -O0
+vlavadora_vlg_check_tst
+!i10b 1
+!s100 DF_Xb^WM6jObon;>1:Yn51
+IiP`M_eJVRRDgh?d4R0]h60
+Z13 V@g?E`V9L^QNgcb1;eI9Mf1
+R3
+Z14 w1729806679
+Z15 8Waveform2.vwf.vt
+Z16 FWaveform2.vwf.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1729806684.058000
+Z18 !s107 Waveform2.vwf.vt|
+Z19 !s90 -work|work|Waveform2.vwf.vt|
+!s101 -O0
+R9
+vlavadora_vlg_sample_tst
+!i10b 1
+!s100 Bfk?bF;TaQgjgGDh;E48c3
+IbEfoWZoi8[X2hW8FVma<W0
+Z20 V;6RVW4z=W6dX?7ag5b]:82
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+vlavadora_vlg_vec_tst
+!i10b 1
+!s100 <zADlTKWEXM?^k:MINm2g1
+I4JfL<Ho;L@oE>R32id=bL2
+Z21 V^O[H>:iOiS6<X7^[C7jNQ0
+R3
+R14
+R15
+R16
+Z22 L0 802
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9

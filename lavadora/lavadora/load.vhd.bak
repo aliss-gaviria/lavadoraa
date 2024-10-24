@@ -1,0 +1,47 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+
+ENTITY load IS
+    PORT (
+        clk         : IN std_logic;          
+        reset       : IN std_logic;          
+        enable      : IN std_logic;       
+        carga: in std_logic;		  
+        load_ciclo  : IN integer range 0 to 3;  
+        count       : OUT std_logic_vector(1 DOWNTO 0);  
+        load        : OUT std_logic          
+    );
+END load;
+
+ARCHITECTURE arch1 OF load IS
+    SIGNAL cnt : integer range 0 to 3;   
+BEGIN
+    counter : PROCESS (clk, reset) IS
+    BEGIN
+        if (reset = '0') THEN
+            cnt <= 0;                       
+            load <= '0';                    
+                
+        elsif (clk'event AND clk = '1') THEN
+            if (carga = '1') THEN
+                cnt <= load_ciclo; 
+                   load	<='1';				 
+            elsif (enable = '1') THEN
+                if (cnt = 0) THEN
+                    load <= '0';              
+                else
+                    cnt <= cnt - 1; 
+                    load<='1';						  
+                end if;
+            end if;
+        end if;
+    END PROCESS;
+
+    count <= std_logic_vector(to_unsigned(cnt, 2));  
+
+END arch1;
+
+
+
+

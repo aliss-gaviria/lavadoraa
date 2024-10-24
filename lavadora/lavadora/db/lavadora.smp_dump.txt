@@ -1,0 +1,7 @@
+
+State Machine - |lavadora|load:U6|estando_actual
+Name estando_actual.FIN estando_actual.PULSE_OFF estando_actual.PULSE_ON estando_actual.IDLE 
+estando_actual.IDLE 0 0 0 0 
+estando_actual.PULSE_ON 0 0 1 1 
+estando_actual.PULSE_OFF 0 1 0 1 
+estando_actual.FIN 1 0 0 1 
